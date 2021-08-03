@@ -1,4 +1,6 @@
 # functions go here
+
+#checks input is a number more than zero
 def num_check(question):
     valid = False
     while not valid:
@@ -8,7 +10,7 @@ def num_check(question):
         try:
         
 
-            response = float(input("enter a number"))
+            response = float(input(question))
 
 
             if response > 0:
@@ -21,3 +23,12 @@ def num_check(question):
                 
         except ValueError:
             print(error)
+
+
+#main rotine goes here
+width = num_check("width: ")
+hight = num_check("hight: ")
+print ()
+print ("width", width)
+print ("hight", hight)
+print ()
