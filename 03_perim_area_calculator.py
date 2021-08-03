@@ -5,8 +5,9 @@ def num_check(question):
     valid = False
     while not valid:
         
-        error = "please enter a number that is more than zero bro"
+        error = "please enter a number that is more than zero"
 
+        error2 = "Please eneter a number"                                                                  
         try:
         
 
@@ -22,7 +23,7 @@ def num_check(question):
                 print()
                 
         except ValueError:
-            print(error)
+            print(error2)
 
 
 #main rotine goes here
