@@ -27,6 +27,9 @@ def num_check(question):
 
 
 #main rotine goes here
+print()
+print("*****area perm calculator*****")
+print()
 
 keep_going=""
 while keep_going == "":
