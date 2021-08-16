@@ -54,7 +54,7 @@ while keep_going == "":
     Fencing = (perimeter * price)
     # Output the perimeter and cost of the fencing
 
-    print ("perimeter: {:.2f} units" .format(perimeter))
+    print ("perimeter: {:.2f} meters" .format(perimeter))
    
     print ("cost of fencing: {:.2f} dollars" .format(Fencing))
    
