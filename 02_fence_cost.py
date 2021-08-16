@@ -41,11 +41,11 @@ while keep_going == "":
     # call your number checker function three times to get the 
     # width, length and cost_per_m of the fencing
     
-    width = num_check("width: ")
+    width = num_check("Width: ")
     print()
-    length = num_check("length: ")
+    length = num_check("Length: ")
     print()
-    price = num_check("price: ")
+    price = num_check("Cost/ m: ")
     print()
 
     # Calulate perimeter (width + height) x 2
