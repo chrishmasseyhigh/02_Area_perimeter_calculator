@@ -7,6 +7,7 @@ def num_check(question):
         
         error = "Please enter a number that is more than zero"
         
+        error2 = "Please enter a number"
         try:
         
             # ask user to enter a number
@@ -22,7 +23,7 @@ def num_check(question):
                 print()
                 
         except ValueError:
-            print(error)    
+            print(error2)    
     
 
 
