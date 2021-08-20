@@ -56,7 +56,7 @@ while keep_going == "":
 
     print ("Perimeter: {:.2f} meters" .format(perimeter))
    
-    print ("Cost / m: ${:.2f} " .format(Fencing))
+    print ("Cost: ${:.2f} " .format(Fencing))
    
     keep_going = input("Press <enter> to keep going or any key to quit")
     
